@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color: #011111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("Amazon.png");
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+    margin-top: 11px;
+    
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/** box2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.add-sec {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+/**box 3 **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(251, 157, 25);
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+}
+.search-input {
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 150, 6, 0.907);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+
+}
+/**box 4**/
+span {
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+/** box 5  sets only the logo of cart**/
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: right;
+}
+/**panel **/
+.panel {
+    height: 40px;
+    background-color: #0b2626;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.panel-opts p {
+    display: inline;
+    margin-left: 20px;
+}
+.panel-opts:hover {
+    border: 1px solid rgb(252, 7, 7);
+}
+.panel-opts {
+    width: 70%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    
+}
+.panel-deals {
+    
+}
+/**hero-section**/
+
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 250px;
+}
+.hero-msg {
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+}
+.hero-msg a {
+    color: rgb(16, 62, 179);
+}
+.shop-section{
+    display: flex;
+    /**to show boxes in 4 4 layouts in a page **/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: whitesmoke
+    
+}
+.box {
+    margin: 0.45%;
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img {
+    height: 280px;
+    background-size: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 1.rem;
+}
+.box-content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box-content {
+    color: rgb(37, 2, 2);
+}
+footer {
+    margin-top: 20px;
+}
+.foot-panel1 {
+background-color: #060442;
+color: #f3f3f3;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.8rem;
+}
+.foot-panel2 {
+    background-color: #010422;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+ul {
+    margin-top: 25px;
+}
+ul a {
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
+.foot-panel3 {
+    height: 100px;
+    background-color: #010422;
+    color: #f3f3f3;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url("Amazon.png");
+    background-size: cover;
+    height: 30px;
+    width: 100px; 
+}
+.foot-panel4 {
+    background-color: #000109f7;
+    color: white;
+    height: 70px;
+    font-size: 0.8rem;
+    text-align: center;
+   
+}
+.pages {
+    padding-top: 5px;
+}
+.Copyright {
+    color: #f3f3f3;
+    background-color: #000109f7;
+}
