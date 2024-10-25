@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages{
-    stage("Docker Version"){
+    stage("Docker_Version"){
       bat "docker --version"
     }
   }
